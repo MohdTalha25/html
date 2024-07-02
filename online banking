@@ -6,32 +6,34 @@
 online banking
 </title>
 </head>
-<body background="bank2.jpg" text="white" >
+<body bgcolor="black" text="white" >
 <center>
 <h2>welcome to online bank</h2>
 <form action="bank.html">
     <fieldset>
 <legend>enter your details here</legend>
-enter your first name:   <input type="text" name="name"><br>
-enter your second name:  <input type="text" name="name"><br>
-enter your password:     <input type="password" name="password"><br>
-re enter your password:  <input type="password" name="password"><br>
-enter your email:<input type="email" name="email"><br>
-enter your phone number:<input type="tel" name="telephone"><br>
+enter your first name:   <input type="text" name="name"><br><br>
+enter your second name:  <input type="text" name="name"><br><br>
+enter your password:     <input type="password" name="password"><br><br>
+re enter your password:  <input type="password" name="password"><br><br>
+enter your email:<input type="email" name="email"><br><br>
+enter your phone number:<input type="tel" name="telephone"><br><br>
 enter your address: <br>
 <textarea rows="5" cols="30" > </textarea><br>
-select your gender :<input type="radio" name="gender"> male
-                    <input type="radio" name="gender"> female
-                    <input type="radio" name="gender"> others<br><br>
+select your gender :<pre><input type="radio" name="gender"> male<br>
+                         <input type="radio" name="gender"> female<br>
+                         <input type="radio" name="gender"> others<br></pre>
 choose your stream:<select name="">
     <option value="current account">current account</option>
     <option value="savings account">savings account</option>
 </select><br><br>
-terms and conditions:<input type="checkbox" name="terms and conditions">agree
-<input type="checkbox" name="terms and conditions"> not agree<br><br>
+terms and conditions: &nbsp;<input type="checkbox" id="terms and conditions" name="terms and conditions" value="agree">
+<label for="terms and conditions"> agree</label><br><br>
+
 reset:<input type="reset" name="reset">
 submit:<input type="submit" name="submit">
     </fieldset>
 </form>
+
 </body>
 </html>
